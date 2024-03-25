@@ -62,3 +62,28 @@ Giải thích:
 ### Triplet Network phù hợp cho:
 * Các tác vụ đòi hỏi học mức độ tương đồng theo thứ bậc giữa các đầu vào (ví dụ: xếp hạng các mục tương tự).
 * Trường hợp dữ liệu có sẵn để tạo các triplet phù hợp.
+
+Một số kiến trúc mới hơn đã được phát triển để giải quyết những hạn chế của Triplet Networks, bao gồm: **Contrastive Loss**, **Lifted Structured Similarity Metric Learning (LS-SSML)**, **Siamese Network with Margin Loss**, **Deep Metric Learning with Angular Loss**
+
+## Contrastive Loss:
+
+* Cách thức hoạt động: Contrastive Loss sử dụng hai đầu vào (anchor và positive) và tối thiểu hóa khoảng cách giữa chúng trong không gian vector.
+* Ưu điểm: Đơn giản hơn Triplet Loss, ít tốn kém tính toán hơn, và có thể áp dụng cho nhiều loại dữ liệu.
+* Nhược điểm: Không hiệu quả như Triplet Loss trong việc học các mối quan hệ phức tạp giữa các đầu vào.
+
+## Lifted Structured Similarity Metric Learning (LS-SSML):
+
+* Cách thức hoạt động: Sử dụng một tập hợp các điểm mốc (landmark) để so sánh các cấu trúc hình ảnh.
+* Ưu điểm: Hiệu quả hơn Triplet Loss trong việc so sánh các đối tượng có hình dạng phức tạp.
+* Nhược điểm: Phức tạp hơn Triplet Loss và đòi hỏi dữ liệu có điểm mốc được xác định trước.
+
+## Siamese Network with Margin Loss:
+
+* Cách thức hoạt động: Kết hợp Siamese Network với hàm Margin Loss để tăng cường khả năng phân biệt giữa các đầu vào tương đồng và khác nhau.
+* Ưu điểm: Đơn giản hơn Triplet Loss, hiệu quả hơn Siamese Network cơ bản, và có thể áp dụng cho nhiều loại dữ liệu.
+* Nhược điểm: Không hiệu quả như Triplet Loss trong việc học các mối quan hệ phức tạp giữa các đầu vào.
+
+## Deep Metric Learning with Angular Loss:
+* Cách thức hoạt động: Sử dụng Angular Loss để so sánh hướng của các vector biểu diễn trong không gian vector.
+* Ưu điểm: Hiệu quả hơn Triplet Loss trong việc so sánh các đối tượng có hình dạng phức tạp.
+* Nhược điểm: Phức tạp hơn Triplet Loss và có thể gặp khó khăn trong việc học các mối quan hệ phi tuyến giữa các đầu vào.
