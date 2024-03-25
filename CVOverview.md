@@ -87,3 +87,30 @@ Một số kiến trúc mới hơn đã được phát triển để giải quy�
 * Cách thức hoạt động: Sử dụng Angular Loss để so sánh hướng của các vector biểu diễn trong không gian vector.
 * Ưu điểm: Hiệu quả hơn Triplet Loss trong việc so sánh các đối tượng có hình dạng phức tạp.
 * Nhược điểm: Phức tạp hơn Triplet Loss và có thể gặp khó khăn trong việc học các mối quan hệ phi tuyến giữa các đầu vào.
+
+
+[Angular Loss](https://arxiv.org/abs/1708.01682) và Margin Loss là hai [hàm mất mát](https://gombru.github.io/2019/04/03/ranking_loss/) được sử dụng trong học tập khoảng cách (metric learning) để so sánh mức độ tương đồng giữa các đầu vào. Tuy nhiên, mỗi loại có cách tiếp cận riêng biệt:
+
+1. Angular Loss:
+
+* Cách hoạt động: So sánh hướng của các vector biểu diễn trong không gian vector.
+* Mục tiêu: Tối thiểu hóa góc giữa các vector của các đầu vào tương đồng và tối đa hóa góc giữa các vector của các đầu vào khác nhau.
+* Ưu điểm: Hiệu quả hơn Triplet Loss trong việc so sánh các đối tượng có hình dạng phức tạp.
+* Nhược điểm: Phức tạp hơn Triplet Loss và có thể gặp khó khăn trong việc học các mối quan hệ phi tuyến giữa các đầu vào.
+* Công thức:
+
+L(A, P) = cos(θ(fA, fP)) + α * (1 - cos(θ(fA, fN)))
+* θ(fA, fP) là góc giữa vector fA và fP.
+* α là tham số hyperparameter để điều chỉnh mức độ ảnh hưởng của Negative (N).
+
+2. Margin Loss:
+* Cách hoạt động: Thêm một margin (khoảng cách) vào khoảng cách giữa các vector của các đầu vào tương đồng để đảm bảo chúng luôn cách nhau một khoảng nhất định.
+* Mục tiêu: Giữ khoảng cách giữa các vector của các đầu vào tương đồng nhỏ hơn một giá trị nhất định (margin) và tăng khoảng cách giữa các vector của các đầu vào khác nhau.
+* Ưu điểm: Đơn giản hơn Triplet Loss và hiệu quả hơn Siamese Network cơ bản.
+* Nhược điểm: Không hiệu quả như Triplet Loss trong việc học các mối quan hệ phức tạp giữa các đầu vào.
+* Công thức:
+
+L(A, P, N) = max( ||fA - fP||^2 - ||fA - fN||^2 + m, 0)
+* || ||^2 là bình phương độ dài (Euclidean distance).
+* m là tham số margin.
+* 
