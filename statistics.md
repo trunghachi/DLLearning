@@ -38,7 +38,8 @@ https://github.com/Pegah-Ardehkhani/Statistics-and-Probability-in-Python?tab=rea
 11. **Laplace Distribution:**
     - Phân phối Laplace là một phân phối liên tục với hai đỉnh và đuôi đu dài. Nó thường được sử dụng trong các mô hình đòi hỏi tính cân bằng giữa độ chính xác và tính đơn giản.
 
-## Chapter 2: Special Discrete Random Variables
+## Chapter 2: Special Discrete Random Variables [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%202%20Special%20Discrete%20Random%20Variables.ipynb) [![Open In nbviewer](https://img.shields.io/badge/Open%20in-nbviewer-blue)](https://nbviewer.org/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%202%20Special%20Discrete%20Random%20Variables.ipynb)
+
 
 1. **Bernoulli Distribution:**
    - Phân phối Bernoulli mô tả kết quả của một thí nghiệm Bernoulli duy nhất, trong đó chỉ có hai kết quả có thể xảy ra: thành công (có xác suất p) hoặc thất bại (có xác suất q = 1 - p). Ví dụ: việc tung một đồng xu có thể cho kết quả là mặt sấp (thất bại) hoặc mặt ngửa (thành công).
@@ -61,7 +62,7 @@ https://github.com/Pegah-Ardehkhani/Statistics-and-Probability-in-Python?tab=rea
 7. **Hypergeometric Distribution:**
    - Phân phối siêu hình học mô tả số lần thành công trong một mẫu rút ra từ một quần thể có số lượng hữu hạn các thành phần, mà không thay đổi kích thước mẫu sau mỗi lần rút. Nó được sử dụng khi mẫu không được thay thế. Ví dụ: số quân bài gốc là 52, và bạn rút ra 5 quân bài, bạn muốn biết xác suất rút được 3 quân bài đỏ.
 
-## Chapter 3: Confidence Intervals
+## Chapter 3: Confidence Intervals [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%203%20Confidence%20Intervals.ipynb) [![Open In nbviewer](https://img.shields.io/badge/Open%20in-nbviewer-blue)](https://nbviewer.org/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%203%20Confidence%20Intervals.ipynb)
 
 1. **Tín lượng khoảng (Confidence Interval) cho trung bình của một quần thể chuẩn:**
    - **3.1.1. Độ lệch tiêu chuẩn đã biết (Known Standard Deviation):** Khoảng tin cậy được sử dụng để ước lượng trung bình của một quần thể chuẩn khi độ lệch tiêu chuẩn của quần thể đã biết trước. Đây là trường hợp khi bạn đã biết giá trị của độ lệch tiêu chuẩn và muốn ước lượng giá trị trung bình của quần thể.
@@ -81,7 +82,7 @@ https://github.com/Pegah-Ardehkhani/Statistics-and-Probability-in-Python?tab=rea
 5. **Tín lượng khoảng cho trung bình của một biến ngẫu nhiên Bernoulli:**
    - **3.5. Confidence Interval for the Mean of a Bernoulli Random Variable:** Sử dụng khi bạn muốn xác định khoảng tin cậy cho trung bình của một biến ngẫu nhiên Bernoulli (ví dụ: xác suất thành công trong một loạt các thí nghiệm Bernoulli).
 
-## Chapter 4: Parametric Hypothesis Testing
+## Chapter 4: Parametric Hypothesis Testing [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%204%20Parametric%20Hypothesis%20Testing.ipynb) [![Open In nbviewer](https://img.shields.io/badge/Open%20in-nbviewer-blue)](https://nbviewer.org/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%204%20Parametric%20Hypothesis%20Testing.ipynb)
 Dĩ nhiên! Đây là các khái niệm thường được sử dụng trong phân tích thống kê để kiểm tra các giả thuyết về trung bình, phương sai và xác suất của các quần thể phân phối chuẩn hoặc Bernoulli:
 
 1. **Kiểm định liên quan đến trung bình của một quần thể chuẩn:**
@@ -107,7 +108,7 @@ Dĩ nhiên! Đây là các khái niệm thường được sử dụng trong ph�
 7. **Kiểm định liên quan đến sự bằng nhau của P trong hai quần thể Bernoulli:**
    - **4.8. Test Concerning the Equality of P in Two Bernoulli Populations:** Sử dụng để kiểm tra xem xác suất thành công (P) có bằng nhau giữa hai quần thể Bernoulli hay không.
   
-## Chapter 5: Statistical Hypothesis Testing
+## Chapter 5: Statistical Hypothesis Testing [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%205%20Statistical%20Hypothesis%20Testing.ipynb) [![Open In nbviewer](https://img.shields.io/badge/Open%20in-nbviewer-blue)](https://nbviewer.org/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%205%20Statistical%20Hypothesis%20Testing.ipynb)
 
 Dưới đây là giải thích cho mỗi khái niệm trong các phần của đoạn mà bạn đã đề cập:
 
@@ -132,7 +133,7 @@ Dưới đây là giải thích cho mỗi khái niệm trong các phần của �
    - **5.4.3. Kiểm định Kruskal-Wallis H:** Sử dụng để kiểm tra xem có sự khác biệt giữa ba hoặc nhiều nhóm dữ liệu độc lập.
    - **5.4.4. Kiểm định Friedman:** Sử dụng để kiểm tra xem có sự khác biệt giữa ba hoặc nhiều điều kiện khác nhau của cùng một nhóm thí nghiệm.
 
-## Chapter 6: Regression
+## Chapter 6: Regression [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%206%20Regression.ipynb) [![Open In nbviewer](https://img.shields.io/badge/Open%20in-nbviewer-blue)](https://nbviewer.org/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%206%20Regression.ipynb)
 
 1. **Ước lượng bằng phương pháp bình phương nhỏ nhất của các tham số hồi quy (Least Squares Estimators of the Regression Parameters):**
    - Các ước lượng bình phương nhỏ nhất là cách tiếp cận phổ biến nhất để ước lượng các tham số của mô hình hồi quy bằng cách tối thiểu hóa tổng bình phương của sai số giữa dữ liệu thực tế và giá trị được dự đoán bởi mô hình.
@@ -158,7 +159,7 @@ Dưới đây là giải thích cho mỗi khái niệm trong các phần của �
 8. **Đa tuyến (Multicollinearity):**
    - Đa tuyến là hiện tượng khi hai hoặc nhiều biến độc lập trong mô hình hồi quy có mức độ tương quan cao, gây khó khăn trong việc ước lượng và diễn giải các ảnh hưởng riêng của từng biến.
   
-## Chapter 7: Analysis of Variance (ANOVA)
+## Chapter 7: Analysis of Variance (ANOVA) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%207%20Analysis%20of%20Variance%20(Anova).ipynb) [![Open In nbviewer](https://img.shields.io/badge/Open%20in-nbviewer-blue)](http://nbviewer.org/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%207%20Analysis%20of%20Variance%20%28Anova%29.ipynb)
 
 1. **One-Way Analysis of Variance (ANOVA một chiều):**
    - **7.1.1. Equal Sample Sizes (Kích thước mẫu bằng nhau):** Trong trường hợp kích thước mẫu của tất cả các nhóm là như nhau, One-Way ANOVA được sử dụng để kiểm tra xem có sự khác biệt có ý nghĩa nào đối với ít nhất một trong các nhóm đó không.
