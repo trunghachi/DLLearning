@@ -2,7 +2,7 @@
 
 https://github.com/Pegah-Ardehkhani/Statistics-and-Probability-in-Python?tab=readme-ov-file
 
-## Chapter 1:  Special Continuous Random Variables [![Open In Colab](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%201%20Special%20Continuous%20Random%20Variables.ipynb)](https://colab.research.google.com/)
+## Chapter 1:  Special Continuous Random Variables [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%201%20Special%20Continuous%20Random%20Variables.ipynb)
 
 
 1. **Normal (Gaussian) Distribution:**
