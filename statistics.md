@@ -1,4 +1,4 @@
-# Learning statistics using Python 
+# Statistics and Probability in Python
 
 https://github.com/Pegah-Ardehkhani/Statistics-and-Probability-in-Python?tab=readme-ov-file
 
