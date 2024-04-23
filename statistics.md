@@ -1,3 +1,7 @@
+# Learning statistics using Python 
+
+https://github.com/Pegah-Ardehkhani/Statistics-and-Probability-in-Python?tab=readme-ov-file
+
 Dưới đây là một số dạng phổ biến của các phương pháp kiểm định:
 
 1. **Kiểm định t:**
