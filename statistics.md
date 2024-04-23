@@ -2,9 +2,7 @@
 
 https://github.com/Pegah-Ardehkhani/Statistics-and-Probability-in-Python?tab=readme-ov-file
 
-## Chapter 1:  Special Continuous Random Variables [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
-
-https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%201%20Special%20Continuous%20Random%20Variables.ipynb
+## Chapter 1:  Special Continuous Random Variables [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/](https://colab.research.google.com/github/Pegah-Ardehkhani/Statistics-and-Probability-in-Python/blob/main/Chapter%201%20Special%20Continuous%20Random%20Variables.ipynb))
 
 1. **Normal (Gaussian) Distribution:**
    - Phân phối chuẩn là một trong những phân phối phổ biến nhất trong thống kê. Nó có hình dạng đồng dạng, đối xứng và có trung bình, phương sai xác định. Đây là phân phối mà nhiều biến ngẫu nhiên trong tự nhiên và trong các quá trình thực tế tuân theo.
