@@ -10,7 +10,6 @@ Một mô hình ngôn ngữ lớn (LLM) là một mạng neural được thiết
 LLMs sử dụng kiến trúc transformer, cho phép chúng tập trung vào các phần khác nhau của đầu vào khi đưa ra dự đoán, giúp chúng xử lý tốt các phức tạp của ngôn ngữ. LLMs là một dạng trí tuệ nhân tạo (AI) tạo sinh, có khả năng tạo văn bản và thực hiện các nhiệm vụ đòi hỏi trí thông minh giống con người như hiểu ngôn ngữ, nhận dạng mẫu và đưa ra quyết định. Chương này sẽ thảo luận và triển khai quy trình huấn luyện từ tiếp theo từng bước một.
 
 <div style="text-align:center;">
-    <img src="https://media.licdn.com/dms/image/D4E10AQF_Xuqi7XOKVA/image-shrink_800/0/1713776419761?e=1719554400&v=beta&t=d6oC7_APCBlssJi8pZJNFWDdNr_26TE2M6veclgS78A" alt="LLMs" style="width:50%; height:50%;">
-    <figcaption>Hình 1.2. Các mô hình ngôn ngữ lớn (LLM) là một ứng dụng cụ thể của các kỹ thuật học sâu, sử dụng khả năng xử lý và tạo văn bản giống như con người. Học sâu là một nhánh chuyên biệt của học máy, tập trung vào việc sử dụng các mạng nơ-ron nhiều lớp. Cả học máy và học sâu đều nhằm mục đích triển khai các thuật toán cho phép máy tính học từ dữ liệu và thực hiện các nhiệm vụ thường yêu cầu trí tuệ con người.</figcaption>
+    <img src="https://media.licdn.com/dms/image/D4E10AQF_Xuqi7XOKVA/image-shrink_800/0/1713776419761?e=1719554400&v=beta&t=d6oC7_APCBlssJi8pZJNFWDdNr_26TE2M6veclgS78A" alt="LLMs"  style="width:50%; height:50%;">
+    <div style="font-size: smaller; font-style: italic;">Hình 1.2. Các mô hình ngôn ngữ lớn (LLM) là một ứng dụng cụ thể của các kỹ thuật học sâu, sử dụng khả năng xử lý và tạo văn bản giống như con người. Học sâu là một nhánh chuyên biệt của học máy, tập trung vào việc sử dụng các mạng nơ-ron nhiều lớp. Cả học máy và học sâu đều nhằm mục đích triển khai các thuật toán cho phép máy tính học từ dữ liệu và thực hiện các nhiệm vụ thường yêu cầu trí tuệ con người.</div>
 </div>
-
