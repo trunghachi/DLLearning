@@ -11,5 +11,5 @@ LLMs sử dụng kiến trúc transformer, cho phép chúng tập trung vào cá
 
 <div style="text-align:center;">
     <img src="https://media.licdn.com/dms/image/D4E10AQF_Xuqi7XOKVA/image-shrink_800/0/1713776419761?e=1719554400&v=beta&t=d6oC7_APCBlssJi8pZJNFWDdNr_26TE2M6veclgS78A" alt="LLMs"  style="width:50%; height:50%;">
-    <div style="font-size: smaller; font-style: italic;">Hình 1.2. Các mô hình ngôn ngữ lớn (LLM) là một ứng dụng cụ thể của các kỹ thuật học sâu, sử dụng khả năng xử lý và tạo văn bản giống như con người. Học sâu là một nhánh chuyên biệt của học máy, tập trung vào việc sử dụng các mạng nơ-ron nhiều lớp. Cả học máy và học sâu đều nhằm mục đích triển khai các thuật toán cho phép máy tính học từ dữ liệu và thực hiện các nhiệm vụ thường yêu cầu trí tuệ con người.</div>
+    <p style="font-family: Arial, sans-serif; font-size: smaller; font-style: italic; text-align: center;">Hình 1.2. Các mô hình ngôn ngữ lớn (LLM) là một ứng dụng cụ thể của các kỹ thuật học sâu, sử dụng khả năng xử lý và tạo văn bản giống như con người. Học sâu là một nhánh chuyên biệt của học máy, tập trung vào việc sử dụng các mạng nơ-ron nhiều lớp. Cả học máy và học sâu đều nhằm mục đích triển khai các thuật toán cho phép máy tính học từ dữ liệu và thực hiện các nhiệm vụ thường yêu cầu trí tuệ con người.</p>
 </div>
