@@ -19,4 +19,6 @@ LLMs sử dụng kiến trúc transformer, cho phép chúng tập trung vào cá
   </tr>
 </table>
 
+Triển khai **AI** dựa vào các thuật toán **Học máy**, học từ dữ liệu để dự đoán hoặc ra quyết định mà không cần lập trình từng bước tường minh. Ví dụ, bộ lọc thư rác sử dụng **ML** để phân loại email dựa trên các ví dụ được gán nhãn, giảm thiểu sai sót để nhận diện mẫu thư rác. **DL**, một phần của Học máy sử dụng mạng nơ-ron với nhiều lớp, tự động hóa nhận diện mẫu phức tạp mà không cần trích xuất đặc trưng thủ công. **AI** cũng bao gồm các hệ thống dựa trên quy tắc (_rule-based systems_), thuật toán di truyền (_genetic algorithms_), hệ chuyên gia (_expert systems_), logic mờ (_fuzzy logic_) và suy luận biểu tượng (_symbolic reasoning_). Khác với các phương pháp truyền thống yêu cầu trích xuất đặc trưng thủ công, Học sâu tối ưu hóa quá trình này.
 
+Các phần tiếp theo sẽ khám phá các _ứng dụng_ hiện tại, _thách thức_ và _kiến trúc_ của các **mô hình ngôn ngữ lớn** (LLMs) được thảo luận trong tài liệu này.
