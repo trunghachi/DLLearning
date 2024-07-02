@@ -91,3 +91,38 @@ Các mô hình GPT, được thiết kế và huấn luyện chủ yếu để t
 Các LLM hiện nay chủ yếu dựa trên kiến trúc transformer được giới thiệu trong phần trước. Do đó, trong văn học, các thuật ngữ "transformers" và "LLMs" thường được sử dụng thay thế cho nhau. Tuy nhiên, cần lưu ý rằng không phải tất cả các transformers đều là LLMs, vì transformers cũng có thể được áp dụng vào các nhiệm vụ trong thị giác máy tính. Ngược lại, không phải tất cả các LLMs đều dựa trên transformers; một số sử dụng các kiến trúc tuần hoàn hoặc tích chập. Mục đích chính của những phương pháp thay thế này là cải thiện hiệu suất tính toán của LLMs. Việc liệu những kiến trúc LLM thay thế này có thể cạnh tranh với các khả năng của LLMs dựa trên transformer và liệu chúng sẽ được áp dụng rộng rãi trong thực tế hay không vẫn còn là một câu hỏi. (Độc giả quan tâm có thể tìm thấy các tài liệu tham khảo mô tả các kiến trúc này trong phần Đọc thêm ở cuối chương này.)
 
 ### 1.5 Sử dụng các bộ dữ liệu lớn
+### 1.6 Kiến trúc GPT
+### 1.7 Xây dựng một LLM từ đầu
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/trunghachi/DLLearning/assets/45091486/5d099a4d-9432-4f71-aa41-f8d521a7bc47" alt="LLM"  style="width:50%; height:50%;">
+      <br>
+      <p style="font-family: Arial, sans-serif; font-size: smaller; font-style: italic; text-align: center;">Hình 1.9. Các bước xây dựng và triển khai một LLM ví dụ. </p>
+    </td>
+  </tr>
+</table>
+
+Trong chương này, chúng ta đã đặt nền tảng để hiểu về các mô hình ngôn ngữ lớn (LLMs). Trong phần còn lại của cuốn sách, chúng ta sẽ lập trình một LLM từ đầu. Chúng ta sẽ lấy ý tưởng cơ bản đằng sau GPT làm bản thiết kế và thực hiện điều này trong ba giai đoạn.
+
+- **Giai đoạn 1**: Tìm hiểu về các bước tiền xử lý dữ liệu cơ bản và lập trình cơ chế attention, thành phần cốt lõi của mọi LLM.
+- **Giai đoạn 2**: Lập trình và huấn luyện trước một LLM tương tự GPT có khả năng tạo ra văn bản mới và tìm hiểu về cách đánh giá LLM. Việc huấn luyện trước một LLM lớn từ đầu đòi hỏi chi phí tính toán rất lớn, vì vậy giai đoạn này sẽ tập trung vào việc huấn luyện cho mục đích giáo dục với tập dữ liệu nhỏ. Cuốn sách cũng sẽ cung cấp các ví dụ về cách tải trọng số của các mô hình có sẵn.
+- **Giai đoạn 3**: Sử dụng một LLM đã được huấn luyện trước và tinh chỉnh nó để thực hiện các nhiệm vụ như trả lời câu hỏi hoặc phân loại văn bản, những nhiệm vụ phổ biến nhất trong các ứng dụng thực tế và nghiên cứu.
+### 1.8 Tổng kết
+Các mô hình ngôn ngữ lớn (LLMs) đã biến đổi lĩnh vực xử lý ngôn ngữ tự nhiên, trước đây chủ yếu dựa vào các hệ thống dựa trên quy tắc rõ ràng và các phương pháp thống kê đơn giản hơn. Sự ra đời của LLMs đã mang đến các phương pháp mới dựa trên học sâu, góp phần đẩy mạnh sự hiểu biết, tạo ra và dịch ngôn ngữ con người.
+
+Các LLM hiện đại được huấn luyện theo hai bước chính. Đầu tiên, chúng được huấn luyện trước trên một tập dữ liệu lớn chứa văn bản không gán nhãn bằng cách dự đoán từ tiếp theo trong câu như một "nhãn". Sau đó, chúng được điều chỉnh lại trên một tập dữ liệu mục tiêu nhỏ hơn, có nhãn để thực hiện các hướng dẫn hoặc nhiệm vụ phân loại.
+
+LLMs dựa trên kiến trúc transformer. Ý tưởng chính của kiến trúc transformer là cơ chế attention, cho phép LLM có quyền truy cập chọn lọc vào toàn bộ chuỗi đầu vào khi tạo ra đầu ra từng từ một.
+
+Kiến trúc gốc của transformer bao gồm một bộ mã hóa để phân tích văn bản và một bộ giải mã để tạo ra văn bản.
+
+LLMs để tạo ra văn bản và tuân theo hướng dẫn, chẳng hạn như GPT-3 và ChatGPT, chỉ thực hiện các mô-đun giải mã, đơn giản hóa kiến trúc.
+
+Tập dữ liệu lớn bao gồm hàng tỷ từ là cần thiết cho việc huấn luyện trước LLMs. Trong cuốn sách này, chúng tôi sẽ thực hiện và huấn luyện LLMs trên các tập dữ liệu nhỏ cho mục đích giáo dục nhưng cũng xem xét cách chúng ta có thể tải trọng số mô hình có sẵn.
+
+Trong khi nhiệm vụ huấn luyện trước chung cho các mô hình giống GPT là dự đoán từ tiếp theo trong câu, những LLM này có các thuộc tính "phát sinh" như khả năng phân loại, dịch hoặc tóm tắt văn bản.
+
+Khi một LLM được huấn luyện trước, mô hình cơ sở kết quả có thể được điều chỉnh tinh tế hơn cho các nhiệm vụ phụ thuộc dòng chảy.
+
+LLMs được điều chỉnh lại trên các tập dữ liệu tùy chỉnh có thể vượt trội hơn so với LLMs chung trên các nhiệm vụ cụ thể.
