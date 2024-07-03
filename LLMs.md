@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/trunghachi/DLLearning/assets/45091486/269260be-6e47-48c9-a8f7-0bd1a55aa083" alt="LLMs"  style="width:50%; height:50%;">
+      <img src="https://github.com/trunghachi/DLLearning/assets/45091486/269260be-6e47-48c9-a8f7-0bd1a55aa083" alt="LLMs"  style="width:100%; height:100%;">
       <br>
       <p style="font-family: Arial, sans-serif; font-size: smaller; font-style: italic; text-align: center;">Hình 1.1. Cây đời của các mô hình ngôn ngữ lớn (LLMs).</p>
     </td>
@@ -19,7 +19,7 @@ LLMs sử dụng kiến trúc transformer, cho phép chúng tập trung vào cá
 <table>
   <tr>
     <td align="center">
-      <img src="https://media.licdn.com/dms/image/D4E10AQF_Xuqi7XOKVA/image-shrink_800/0/1713776419761?e=1719554400&v=beta&t=d6oC7_APCBlssJi8pZJNFWDdNr_26TE2M6veclgS78A" alt="LLMs"  style="width:50%; height:50%;">
+      <img src="https://github.com/trunghachi/DLLearning/assets/45091486/28dda535-2a38-41e9-b7ca-749e946c8773" alt="LLMs"  style="width:50%; height:50%;">
       <br>
       <p style="font-family: Arial, sans-serif; font-size: smaller; font-style: italic; text-align: center;">Hình 1.2. Các mô hình ngôn ngữ lớn (LLM) là một ứng dụng cụ thể của các kỹ thuật học sâu, sử dụng khả năng xử lý và tạo văn bản giống như con người. Học sâu là một nhánh chuyên biệt của học máy, tập trung vào việc sử dụng các mạng nơ-ron nhiều lớp. Cả học máy và học sâu đều nhằm mục đích triển khai các thuật toán cho phép máy tính học từ dữ liệu và thực hiện các nhiệm vụ thường yêu cầu trí tuệ con người.</p>
     </td>
