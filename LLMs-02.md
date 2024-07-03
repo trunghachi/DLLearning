@@ -30,9 +30,17 @@ Trong giai đoạn huấn luyện trước, các LLM xử lý văn bản từng 
   </tr>
 </table>
 
-## Hiểu về nhúng từ (word embeddings)
-### Tóm tắt và dịch sang tiếng Việt
-
+## 1. Hiểu về nhúng từ (word embeddings)
 Các mô hình mạng nơ-ron sâu, bao gồm cả các mô hình ngôn ngữ lớn (LLMs), không thể xử lý trực tiếp văn bản thô. Do văn bản là dữ liệu phân loại, nó không tương thích với các phép toán toán học được sử dụng để triển khai và huấn luyện mạng nơ-ron. Do đó, chúng ta cần một cách để biểu diễn các từ dưới dạng các vector có giá trị liên tục. (Những người đọc chưa quen với vector và tensor trong ngữ cảnh tính toán có thể tìm hiểu thêm ở Phụ lục A, phần A2.2 Hiểu về tensor.)
 
 Khái niệm chuyển đổi dữ liệu thành định dạng vector thường được gọi là embedding. Sử dụng một lớp mạng nơ-ron cụ thể hoặc một mô hình mạng nơ-ron đã được huấn luyện trước, chúng ta có thể embedding các loại dữ liệu khác nhau, ví dụ như video, âm thanh và văn bản, như minh họa trong Hình 2.2.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/trunghachi/DLLearning/assets/45091486/8fd74220-5f5f-4c32-984c-57e7a015bc1f" alt="LLMs"  style="width:100%; height:100%;">
+      <br>
+      <p style="font-family: Arial, sans-serif; font-size: smaller; font-style: italic; text-align: center;">Hình 2.2.  Các mô hình học sâu không thể xử lý các định dạng dữ liệu như video, âm thanh và văn bản ở dạng thô của chúng. Do đó, chúng ta sử dụng một mô hình embedding để chuyển đổi dữ liệu thô này thành một biểu diễn vector dày đặc mà các kiến trúc học sâu có thể dễ dàng hiểu và xử lý. Cụ thể, hình này minh họa quá trình chuyển đổi dữ liệu thô thành một vector số ba chiều.</p>
+    </td>
+  </tr>
+</table>
